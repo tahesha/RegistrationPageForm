@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <!-- Form heading -->
+    <h2>Registration Page</h2>
+    
+    <!-- Registration form -->
+    <form action="#" method="POST">
+        <!-- First Name field -->
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required><br><br>
+        
+        <!-- Last Name field -->
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required><br><br>
+        
+        <!-- Email field -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+        
+        <!-- Password field -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        
+        <!-- Confirm Password field -->
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required><br><br>
+        
+        <!-- Gender field -->
+        <label>Gender:</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br><br>
+        
+        <!-- Date of Birth field -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="text" id="dob" name="dob" placeholder="MM/DD/YYYY" pattern="\d{2}\/\d{2}\/\d{4}" required><br><br>
+        
+        <!-- Habits field -->
+        <label>What are your habits?</label><br>
+        <input type="checkbox" id="habit1" name="habit1" value="habit1">
+        <label for="habit1">Habit 1</label>
+        <input type="checkbox" id="habit2" name="habit2" value="habit2">
+        <label for="habit2">Habit 2</label>
+        <!-- Add more habits as needed -->
+        <br><br>
+        
+        <!-- Submit button -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
